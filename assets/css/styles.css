@@ -8,5 +8,17 @@
     --very-light: hsl(0, 0%, 98%);
     --headings-font: 'DM Serif Display', serif;
     --body-font: 'Karla', sans-serif;
-
 }
+
+.container-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
