@@ -10,15 +10,76 @@
     --body-font: 'Karla', sans-serif;
 }
 
-.container-section {
+.container__section {
     display: flex;
     flex-direction: column;
     align-items: center;
+       
 }
 
-.container-div {
+.container__div {
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-self: center;
+    justify-content: center;
 }
+
+.container__intro {
+    background-color: var(--dark-violet);    
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+}
+
+.container__div__intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5em 0.5em 5em;    
+}
+
+.container__imagem {
+    width: 100vw;    
+}
+
+.titulo__intro {
+    font-family: var(--headings-font);
+    font-weight: 400;
+    font-size: 2.5em;
+    color: var(--very-light);
+    text-align: center;    
+}
+
+.texto__intro {
+    font-family: var(--body-font);
+    font-weight: 400;
+    font-size: 1em;
+    color: var(--very-light);
+    text-align: center;
+    margin: 1em;
+    padding: 1.1em;
+}
+
+.botao {
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  border-radius: 0px;
+  padding: 0.8em 2em 0.8em;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  transition: transform 200ms,background 200ms;
+  background: transparent;
+  color: var(--very-light);
+  box-shadow: 0 0 0 2px var(--very-light) inset;
+    
+}
+
+
+
+
 
