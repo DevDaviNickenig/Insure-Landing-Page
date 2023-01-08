@@ -1,4 +1,4 @@
-@import 'styles.css';
+@import "styles.css";
 
 .top-nav {
   display: flex;
@@ -97,9 +97,9 @@
   text-decoration: none;
   padding: 0.8em 5em 0.8em;  
   text-transform: uppercase;
-  background-image: url(../../assets/images/bg-pattern-intro-left-mobile.svg);
+  /* background-image: url(../../assets/images/bg-pattern-intro-left-mobile.svg);
   
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 #menu-toggle:checked + .menu-button-container .menu-button::before {
