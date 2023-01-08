@@ -177,11 +177,16 @@ header {
   list-style-type: none;  
   margin: 0;
   padding: 0;
+  
+}
+
+.linha__menu {
+  align-items: center;
 }
 
 .menu > li {
   margin: 0 1rem;
-  overflow: hidden;
+  overflow: hidden;  
 }
 
 .link__navbar {
@@ -216,7 +221,7 @@ header {
   height: 4px;
   width: 30px;
   transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
-  border-radius: 2px;
+  border-radius: 2px;  
 }
 
 .menu-button::before {
@@ -239,12 +244,13 @@ header {
   box-shadow: 0 0 0 2px var(--very-light) inset;*/
   color: var(--very-light);
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 700;
   border: 2px solid var(--very-light);
   align-items: center;
   box-sizing: border-box;
   text-decoration: none;
-  padding: 0.8em 2em 0.8em;  
+  padding: 0.8em 5em 0.8em;  
+  text-transform: uppercase;
 }
 
 #menu-toggle:checked + .menu-button-container .menu-button::before {
@@ -253,7 +259,7 @@ header {
 }
 
 #menu-toggle:checked + .menu-button-container .menu-button {
-  background: rgba(255, 255, 255, 0);
+  background: rgba(255, 255, 255, 0);  
 }
 
 #menu-toggle:checked + .menu-button-container .menu-button::after {
@@ -271,9 +277,9 @@ header {
     margin-top: 50px;
     left: 0;
     flex-direction: column;
-    width: 100%;
+    width: 100%;       
     justify-content: center;
-    align-items: center;
+    align-items: center;       
   }
   #menu-toggle ~ .menu li {
     height: 0;
@@ -293,11 +299,11 @@ header {
     justify-content: center;
     margin: 0;
     padding: 0.5em 0;
-    width: 100%;
+    width: 100%;    
     color: white;
     background-color: #222;
   }
-  .menu > li:not(:last-child) {
+  /* .menu > li:not(:last-child) {
     border-bottom: 1px solid #444;
-  }
+  } */
 }
