@@ -8,8 +8,6 @@
     --very-light: hsl(0, 0%, 98%);
     --headings-font: 'DM Serif Display', serif;
     --body-font: 'Karla', sans-serif;
-<<<<<<< Updated upstream
-=======
 }
 
 .container__section {
@@ -28,7 +26,10 @@
 }
 
 .container__intro {
-    background-color: var(--dark-violet);    
+    background-color: var(--dark-violet);
+    background-image: url(../../assets/images/bg-pattern-intro-left-mobile.svg);    
+    /* background-position: left; */
+    background-size: 1em left cover;        
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -39,7 +40,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 5em 0.5em 5em;    
+    margin: 5em 0.5em 5em;            
 }
 
 .container__imagem {
@@ -49,7 +50,7 @@
 .titulo__intro {
     font-family: var(--headings-font);
     font-weight: 400;
-    font-size: 2.5em;
+    font-size: 3em;
     color: var(--very-light);
     text-align: center;    
 }
@@ -60,7 +61,7 @@
     font-size: 1em;
     color: var(--very-light);
     text-align: center;
-    margin: 1em;
+    /* margin: 1em; */
     padding: 1.1em;
 }
 
@@ -88,27 +89,36 @@
     /* margin: 1em 0.5em 0;  */
 }
 
+.container__background__image {
+    background-image: url(../../assets/images/bg-pattern-intro-right-mobile.svg);    
+    background-position: right;
+    background-position-y: -5em;
+    background-clip: unset; 
+    background-repeat: no-repeat;
+    
+}
+
 .titulo__corpo {
     font-family: var(--headings-font);
     font-weight: 400;
     font-size: 2.5em;
     color: var(--dark-violet);
     text-align: center;
-    margin: 4em 0 1em; 
+    margin: 0.5em 0 1em; 
 }
 
-/* .linha__horizontal {
+.linha__horizontal__corpo {
+    width: 125px;
+    border-bottom: 1px solid var(--dark-grayish-violet);
+    margin: 7em 0 0;
     
-    width: 150px;
-    border-top: 1px solid var(--dark-grayish-violet);
-    
-} */
+}
 
 .simbolo__corpo {
     margin: 2em 0 1em;
 }
 
-.titulo__cartão {
+.titulo__cartao {
     font-family: var(--headings-font);
     font-weight: 400;
     font-size: 2em;
@@ -149,7 +159,13 @@
 .container__footer {
     background-color: var(--very-light);
     background-image: url(../../assets/images/bg-pattern-footer-mobile.svg);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;    
+}
+
+.linha__horizontal__footer {
+    width: 300px;
+    border-bottom: 1px solid var(--dark-grayish-violet);
+    margin: 2em;
 }
 
 .imagem__footer {
@@ -159,18 +175,18 @@
 .container__midias {
     display: flex;
     flex-direction: row;
-    /* margin: 20px var(--very-dark-violet) auto; */
+    
 }
 
 .link__midias {
     padding: 0.5em;
 }
 
-.line {
+/* .line {
     border-bottom: 1px solid red;
     margin-bottom: 1px;
     width: 75%;
-}
+} */
 
 .container__div__lista {
     margin: 1em;
@@ -223,12 +239,4 @@
     font-weight: 700;
     font-size: 1em;
     text-transform: uppercase;
-}
-
-
-
-
-
->>>>>>> Stashed changes
-
 }
