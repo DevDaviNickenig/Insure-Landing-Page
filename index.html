@@ -15,7 +15,7 @@
 </head>
 <body>
   <header>
-    <nav>
+    <!-- <nav>
       <div class="navbar">
         <div class="container nav-container">
             <input class="checkbox" type="checkbox" name="" id="" />
@@ -25,17 +25,33 @@
               <span class="line line3"></span>
             </div>  
           <div class="logo">
-            <h1>INSURE</h1>
+            <img class="" src="assets/images/logo.svg" alt="logo Insure">
           </div>
           <div class="menu-items">
-            <li><a href="#">How we work</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Account</a></li>
-            <li><a href="#">View plans</a></li>            
+            <li><a class="link__navbar" href="#">How we work</a></li>
+            <li><a class="link__navbar" href="#">Blog</a></li>
+            <li><a class="link__navbar" href="#">Account</a></li>
+            <li><button class="botao__navbar">VIEW PLANS</button>            
           </div>
         </div>
       </div>
-    </nav>
+    </nav> -->
+    <section class="top-nav">
+      <div class="logo__menu">
+        <img class="" src="assets/images/logo.svg" alt="">
+      </div>
+      <input id="menu-toggle" type="checkbox" />
+      <label class='menu-button-container' for="menu-toggle">
+      <div class='menu-button'></div>
+    </label>
+      <ul class="menu">
+        <li class="linha__menu"><a class="link__navbar" href="#">How we work</a></li>
+        <li class="linha__menu"><a class="link__navbar" href="#">Blog</a></li>
+        <li class="linha__menu"><a class="link__navbar" href="#">Account</a></li>
+        <li class="linha__menu"><a class="botao__navbar" href="#">view plans</a></li>      
+      </ul>
+    </section>
+
   </header>
   <section class="container__section">
     <img class="container__imagem" src="assets/images/image-intro-mobile.jpg" alt="foto família de mãos dadas">  
