@@ -82,6 +82,11 @@
     
 }
 
+.container__section__chamada{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .container__div__corpo {
     display: flex;
     flex-direction: column;
@@ -170,6 +175,7 @@
 
 .imagem__footer {
     margin: 5em 0 1.5em;
+    align-self: center;    
 }
 
 .container__midias {
@@ -188,7 +194,14 @@
     width: 75%;
 } */
 
+.div__midias {
+    display: flex;
+    flex-direction: column;
+
+}
+
 .container__div__lista {
+    
     margin: 1em;
 }
 
@@ -239,4 +252,105 @@
     font-weight: 700;
     font-size: 1em;
     text-transform: uppercase;
+}
+
+@media screen and (min-width: 376px) {
+    .container__section {
+        display: flex;
+        flex-direction: row-reverse;        
+    }
+
+    .container__intro {
+        /* background-image: url(../../assets/images/bg-pattern-intro-left-desktop.svg); */
+        background-image: url(../../assets/images/bg-pattern-intro-right-desktop.svg);
+        background-position: right;
+        background-size: cover;
+        
+    }
+
+    .container__div__intro {
+        display: flex;
+        align-items: baseline;
+        align-content: flex-start;
+        margin-left: 5em;
+             
+    }
+
+    .container__imagem {
+        height: 423px;
+        width: 340px;
+        position: absolute;       
+    }
+
+    .container__responsivo__cor {
+        background-color: var(--dark-violet);
+    }
+
+    .container__section__chamada {
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .titulo__intro {
+        text-align: justify;
+    }
+
+    .texto__intro {
+        text-align: justify;
+        padding: 1em 2em 1em 0em;        
+    }
+
+    .botao {
+        margin: 1em 1em 1em 0;
+    }
+
+    .container__section__footer {
+        display: flex;
+        flex-direction: column;
+               
+    }
+    
+    .container__chamada__footer {
+        width: 80vw;
+    }
+    
+    .div__midias {
+        display: flex;
+        flex-direction: row;
+        align-items: center;       
+        justify-content: space-between;
+        margin: 1em 1em 0 1em;        
+    }
+
+    .container__midias {
+        align-items: center;
+    }
+
+    .imagem__footer {
+        margin: 0;
+        align-self: center;
+    }
+
+    .linha__horizontal__footer {
+        width: 78vw;
+        border-bottom: 1px solid var(--dark-grayish-violet);
+        margin: 1em; 
+    }
+
+    .rodape__navegacao {
+        display: flex;
+        flex-direction: row;              
+
+    }
+
+    .container__div__lista {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;             
+    }
+
+
+
+    
 }

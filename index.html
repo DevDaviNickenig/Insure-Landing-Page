@@ -14,6 +14,7 @@
   <title>Frontend Mentor | Insure landing page</title>  
 </head>
 <body>
+
   <header>    
     <section class="top-nav">
       <div class="logo__menu">
@@ -33,7 +34,9 @@
 
   </header>
 
-  <section class="container__section">
+  <main>
+
+  <section class="container__section container__responsivo__cor">
     <img class="container__imagem" src="assets/images/image-intro-mobile.jpg" alt="foto família de mãos dadas">  
     <div class="container__div container__intro">        
       <div class="container__div__intro">
@@ -44,9 +47,10 @@
     </div> 
   </section> 
    
-  <section class="container__section container__background__image">
+  <section class="container__section__chamada container__background__image">
     <div class="linha__horizontal__corpo"></div>  
-      <h2 class="titulo__corpo">We're different</h2>      
+      <h2 class="titulo__corpo">We're different</h2>
+    <div class="container__div container__div__corpo">     
       <img class="simbolo__corpo" src="assets/images/icon-snappy-process.svg" alt="símbolo velocidade">
       <h3 class="titulo__cartao">Snappy Process</h3>
       <p class="texto__corpo">Our application process can be completed in minutes, not hours. Don't get stuck filling in tedious forms.</p>
@@ -73,53 +77,61 @@
       </div>
     </div>    
   </section>
-
+</main>
   <footer class="container__div container__footer">
-    <img class="imagem__footer" src="assets/images/logo.svg" alt="">
-    <div class="container__div container__midias">      
-      <a class="link__midias" href="#"><img src="assets/images/icon-facebook.svg" alt=""></a>
-      <a class="link__midias" href="#"><img src="assets/images/icon-twitter.svg" alt=""></a>
-      <a class="link__midias" href="#"><img src="assets/images/icon-pinterest.svg" alt=""></a>
-      <a class="link__midias" href="#"><img src="assets/images/icon-instagram.svg" alt=""></a>      
-    </div>
-    <div class="linha__horizontal__footer" id="linha__horizontal"></div>
-      <nav>
-        <ul class="rodape__navegacao">
-          <div class="container__div container__div__lista">
-            <li class="rodape__linha"><a class="rodape__link__destaque"href="#">Our company</a></li>
-            <li class="rodape__linha"><a class="rodape__link"href="#">How we work</a></li>
-            <li class="rodape__linha"><a class="rodape__link"href="#">Why Insure?</a></li>
-            <li class="rodape__linha"><a class="rodape__link"href="#">View plans</a></li>
-            <li class="rodape__linha"><a class="rodape__link"href="#">Reviews</a></li>
-          </div>
-          <div class="container__div container__div__lista">
-            <li class="rodape__linha"><a class="rodape__link__destaque"href="#">Help me</a></li>
-            <li class="rodape__linha"><a class="rodape__link"href="#">FAQ</a></li>
-            <li class="rodape__linha"><a class="rodape__link"href="#">Terms of use</a></li>
-            <li class="rodape__linha"><a class="rodape__link"href="#">Privacy policy</a></li>
-            <li class="rodape__linha"><a class="rodape__link"href="#">Cookies</a></li>
-          </div>
-          <div class="container__div container__div__lista">
-            <li class="rodape__linha"><a class="rodape__link__destaque"href="#">Contact</a></li>
-            <li class="rodape__linha"><a class="rodape__link"href="#">Sales</a></li>
-            <li class="rodape__linha"><a class="rodape__link"href="#">Support</a></li>
-            <li class="rodape__linha"><a class="rodape__link"href="#">Live chat</a></li>
-          </div>
-          <div class="container__div container__div__lista">
-            <li class="rodape__linha"><a class="rodape__link__destaque"href="#">Contact</a></li>
-            <li class="rodape__linha"><a class="rodape__link"href="#">Sales</a></li>
-            <li class="rodape__linha"><a class="rodape__link"href="#">Support</a></li>
-            <li class="rodape__linha"><a class="rodape__link"href="#">Live chat</a></li>
-          </div>
-          <div class="container__div container__div__lista">
-            <li class="rodape__linha"><a class="rodape__link__destaque"href="#">Others</a></li>
-            <li class="rodape__linha"><a class="rodape__link"href="#">Careers</a></li>
-            <li class="rodape__linha"><a class="rodape__link"href="#">Press</a></li>
-            <li class="rodape__linha"><a class="rodape__link"href="#">Licenses</a></li>
-          </div>
-        </ul>
-      </nav>    
-    </div>
+    <section class="container__section__footer">
+      <div class="container__chamada__footer">
+        <div class="div__midias">
+          <img class="imagem__footer" src="assets/images/logo.svg" alt="">
+          <div class="container__div container__midias">      
+            <a class="link__midias" href="#"><img src="assets/images/icon-facebook.svg" alt=""></a>
+            <a class="link__midias" href="#"><img src="assets/images/icon-twitter.svg" alt=""></a>
+            <a class="link__midias" href="#"><img src="assets/images/icon-pinterest.svg" alt=""></a>
+            <a class="link__midias" href="#"><img src="assets/images/icon-instagram.svg" alt=""></a>      
+          </div>      
+        </div>
+      </div>
+      <div class="linha__horizontal__footer" id="linha__horizontal"></div>
+      <div>  
+        <nav class="nav__rodape">
+          <ul class="rodape__navegacao">
+            <div class="container__div container__div__lista">
+              <li class="rodape__linha"><a class="rodape__link__destaque"href="#">Our company</a></li>
+              <li class="rodape__linha"><a class="rodape__link"href="#">How we work</a></li>
+              <li class="rodape__linha"><a class="rodape__link"href="#">Why Insure?</a></li>
+              <li class="rodape__linha"><a class="rodape__link"href="#">View plans</a></li>
+              <li class="rodape__linha"><a class="rodape__link"href="#">Reviews</a></li>
+            </div>
+            <div class="container__div container__div__lista">
+              <li class="rodape__linha"><a class="rodape__link__destaque"href="#">Help me</a></li>
+              <li class="rodape__linha"><a class="rodape__link"href="#">FAQ</a></li>
+              <li class="rodape__linha"><a class="rodape__link"href="#">Terms of use</a></li>
+              <li class="rodape__linha"><a class="rodape__link"href="#">Privacy policy</a></li>
+              <li class="rodape__linha"><a class="rodape__link"href="#">Cookies</a></li>
+            </div>
+            <div class="container__div container__div__lista">
+              <li class="rodape__linha"><a class="rodape__link__destaque"href="#">Contact</a></li>
+              <li class="rodape__linha"><a class="rodape__link"href="#">Sales</a></li>
+              <li class="rodape__linha"><a class="rodape__link"href="#">Support</a></li>
+              <li class="rodape__linha"><a class="rodape__link"href="#">Live chat</a></li>
+            </div>
+            <div class="container__div container__div__lista">
+              <li class="rodape__linha"><a class="rodape__link__destaque"href="#">Contact</a></li>
+              <li class="rodape__linha"><a class="rodape__link"href="#">Sales</a></li>
+              <li class="rodape__linha"><a class="rodape__link"href="#">Support</a></li>
+              <li class="rodape__linha"><a class="rodape__link"href="#">Live chat</a></li>
+            </div>
+            <div class="container__div container__div__lista">
+              <li class="rodape__linha"><a class="rodape__link__destaque"href="#">Others</a></li>
+              <li class="rodape__linha"><a class="rodape__link"href="#">Careers</a></li>
+              <li class="rodape__linha"><a class="rodape__link"href="#">Press</a></li>
+              <li class="rodape__linha"><a class="rodape__link"href="#">Licenses</a></li>
+            </div>
+          </ul>
+        </nav>    
+      </div>
+      </div>
+    </section>
   </footer>
 </body>
 </html>
