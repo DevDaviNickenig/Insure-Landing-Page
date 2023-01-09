@@ -262,7 +262,7 @@
     text-transform: uppercase;
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 787px) {
     .container__section {
         display: flex;
         flex-direction: row-reverse;        
