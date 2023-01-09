@@ -305,6 +305,11 @@
         margin: 1em 1em 1em 0;
     }
 
+    .container__footer {
+        background-image: url(../../assets/images/bg-pattern-footer-desktop.svg);
+        background-repeat: no-repeat;
+    }
+
     .container__section__footer {
         display: flex;
         flex-direction: column;
