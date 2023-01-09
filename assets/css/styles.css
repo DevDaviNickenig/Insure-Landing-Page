@@ -115,7 +115,7 @@
 .linha__horizontal__corpo {
     width: 125px;
     border-bottom: 1px solid var(--dark-grayish-violet);
-    margin: 7em 0 0;
+    margin: 5em 8em 0;
     
 }
 
@@ -157,8 +157,16 @@
     align-items: center;
     align-self: center;
     justify-content: center;
-    
-    margin: 5em 1em 5em;   
+    margin: 3em 0.5em 4em;   
+}
+
+.titulo__descubra__mais {
+    font-family: var(--headings-font);
+    font-weight: 400;
+    font-size: 3em;
+    color: var(--very-light);
+    text-align: center;
+    padding: 0 0 1.1em;
 }
 
 .container__footer {
@@ -272,14 +280,14 @@
         display: flex;
         align-items: baseline;
         align-content: flex-start;
-        margin-left: 5em;
+        margin: 10em;
              
     }
 
     .container__imagem {
-        height: 423px;
-        width: 340px;
-        position: absolute;       
+        height: 586px;
+        width: 485px;
+        position: relative;       
     }
 
     .container__responsivo__cor {
@@ -289,20 +297,70 @@
     .container__section__chamada {
         display: flex;
         flex-direction: row;
+
+    }
+
+    .container__div__corpo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 2em;
         
     }
 
     .titulo__intro {
         text-align: justify;
+        padding: 0 6em 0 0;
     }
 
     .texto__intro {
-        text-align: justify;
+        text-align: start;
         padding: 1em 2em 1em 0em;        
     }
 
     .botao {
         margin: 1em 1em 1em 0;
+    }
+
+    .linha__horizontal__corpo {
+        display: flex;
+        width: 100px;
+        border-bottom: 1px solid var(--dark-grayish-violet);
+        margin: 5em 10em 0;
+    }
+
+    .container__background__image {
+        background-image: none;
+        margin: 9em;
+    }
+
+    .texto__corpo {
+        text-align: justify;
+        padding: 0;
+    } 
+
+    .container__descubra__mais {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;  
+        margin: 1em 10em 3em;        
+        background-image: url(../../assets/images/bg-pattern-how-we-work-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: contain;
+    }
+
+    .caixa__div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;        
+    }
+
+    .titulo__corpo {
+        margin-left: 4em;
+        text-align: start;
     }
 
     .container__footer {
@@ -345,7 +403,8 @@
 
     .rodape__navegacao {
         display: flex;
-        flex-direction: row;              
+        flex-direction: row;
+        justify-content: space-between;              
 
     }
 
